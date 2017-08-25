@@ -63,6 +63,9 @@ add_action( 'admin_head', 'eracom_replace_admin_menu_icons_css' );
 // Post Types
 include_once (plugin_dir_path(__FILE__).'eracom-post-types.php');
 
+// ACF Fields
+include_once (plugin_dir_path(__FILE__).'eracom-acf.php');
+
 
 /* Allowed FileTypes
  ********************
