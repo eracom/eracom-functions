@@ -119,6 +119,13 @@ acf_add_local_field_group(array (
 	'description' => '',
 ));
 
+/* Informations sur la formation
+ *********************************
+ * Affiche deux options:
+ * Catégorie (pour projets)
+ * Organigramme (nom d'organigramme)
+*/
+
 acf_add_local_field_group(array (
 	'key' => 'group_5995ad916f0a5',
 	'title' => 'Informations sur la formation',
@@ -158,10 +165,12 @@ acf_add_local_field_group(array (
 				'class' => '',
 				'id' => '',
 			),
-			'choices' => array (
+			'choices' => array ( // cf. https://github.com/eracom/eracom-wordpress-2017/issues/2
 				'Aucun organigramme' => 'Aucun organigramme',
-				'Formation Dual' => 'Formation Dual',
-				'Formation Plein temps + Dual' => 'Formation Plein temps + Dual',
+				'Duale 4 ans' => 'Duale 4 ans',
+				'Duale 3/4 ans' => 'Duale 3/4 ans',
+				'Plein temps 3 + duale 3' => 'Plein temps 3 + duale 3',
+				'Plein temps 3/4 + duale 4' => 'Plein temps 3/4 + duale 4'
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
@@ -189,6 +198,10 @@ acf_add_local_field_group(array (
 	'active' => 1,
 	'description' => '',
 ));
+
+/* Description de la formation
+ *********************************
+*/
 
 acf_add_local_field_group(array (
 	'key' => 'group_59931ead974f7',
