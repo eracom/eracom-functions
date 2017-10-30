@@ -105,8 +105,5 @@ function eracom_register_post_types() {
 				),
 			) 
 		);
-		
 
-}
-
-
+} // end eracom_register_post_types
