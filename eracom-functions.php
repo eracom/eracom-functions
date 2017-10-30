@@ -3,7 +3,7 @@
 Plugin Name: Eracom Functions
 Plugin URI: https://github.com/eracom/eracom-functions/
 Description: This plugin adds functionality to the Eracom website.
-Version: 1.0.0
+Version: 1.0.1
 Author: Eracom Web Team
 Author URI: https://github.com/orgs/eracom/teams/site-eracom/members
 GitHub Plugin URI: https://github.com/eracom/eracom-functions
