@@ -98,8 +98,47 @@ acf_add_local_field_group(array (
 			'max_height' => '',
 			'max_size' => '',
 			'mime_types' => '',
-		),
-	),
+		), // Galerie
+		array (
+			'key' => 'field_59f757cdd866a',
+			'label' => 'Vidéos',
+			'name' => 'eracom_videos',
+			'type' => 'repeater',
+			'value' => NULL,
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array (
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'collapsed' => '',
+			'min' => 0,
+			'max' => 0,
+			'layout' => 'table',
+			'button_label' => 'Ajouter une vidéo',
+			'sub_fields' => array (
+				array (
+					'key' => 'field_59f757cde4ad3',
+					'label' => 'Vidéo',
+					'name' => 'eracom_video_item',
+					'type' => 'oembed',
+					'value' => NULL,
+					'instructions' => '',
+					'required' => 0,
+					'conditional_logic' => 0,
+					'wrapper' => array (
+						'width' => '',
+						'class' => '',
+						'id' => '',
+					),
+					'width' => '',
+					'height' => '',
+				),
+			), // sub_fields
+		), // eracom_videos
+	), // fields
 	'location' => array (
 		array (
 			array (
@@ -108,7 +147,7 @@ acf_add_local_field_group(array (
 				'value' => 'eracom_projet',
 			),
 		),
-	),
+	), // location
 	'menu_order' => 0,
 	'position' => 'normal',
 	'style' => 'default',
@@ -167,10 +206,12 @@ acf_add_local_field_group(array (
 			),
 			'choices' => array ( // cf. https://github.com/eracom/eracom-wordpress-2017/issues/2
 				'Aucun organigramme' => 'Aucun organigramme',
-				'Duale 4 ans' => 'Duale 4 ans',
-				'Duale 3/4 ans' => 'Duale 3/4 ans',
-				'Plein temps 3 + duale 3' => 'Plein temps 3 + duale 3',
-				'Plein temps 3/4 + duale 4' => 'Plein temps 3/4 + duale 4'
+				'dual2' => 'Dual 2 ans',
+				'dual3' => 'Dual 3 ans',
+				'dual3-4' => 'Dual 3/4 ans',
+				'dual4' => 'Dual 4 ans',
+				'pt3-dual3' => 'Plein temps 3 + dual 3 ans',
+				'pt3-4-dual4' => 'Plein temps 3/4 + dual 4 ans'
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
