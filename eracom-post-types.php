@@ -58,7 +58,9 @@ function eracom_register_post_types() {
 					'eracom_type_de_projet',
 					array( 'eracom_projet' ),
 					array( 
-				 		'hierarchical' => true, 
+				 		'hierarchical' => true,
+				 		'show_ui' => true,
+				 		'show_admin_column' => true,
 				 		'label' => 'Branches',
 				 		'rewrite' => array('slug' => 'branche'),
 				 		'singular_label' => 'Branche'
