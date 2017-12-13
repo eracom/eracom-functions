@@ -47,20 +47,6 @@ add_action( 'admin_menu', 'eracom_change_post_label' );
 add_action( 'init', 'eracom_change_post_object' );
 
 
-function eracom_replace_admin_menu_icons_css() {
-    ?>
-    <style>
-        #menu-posts .dashicons-admin-post:before {
-        	/* content: "\f126"; */
-        }
-    </style>
-    <?php
-}
-
-add_action( 'admin_head', 'eracom_replace_admin_menu_icons_css' );
-
-
-
 // Post Types
 include_once (plugin_dir_path(__FILE__).'eracom-post-types.php');
 
@@ -69,6 +55,9 @@ include_once (plugin_dir_path(__FILE__).'eracom-acf.php');
 
 // Admin Styles
 include_once (plugin_dir_path(__FILE__).'eracom-admin-style.php');
+
+// Google Analytics
+include_once (plugin_dir_path(__FILE__).'eracom-analytics.php');
 
 
 /* Allowed FileTypes
