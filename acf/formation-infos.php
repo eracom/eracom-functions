@@ -54,7 +54,11 @@ acf_add_local_field_group(array (
 				'dual3-4' => 'Dual 3/4 ans',
 				'dual4' => 'Dual 4 ans',
 				'pt3-dual3' => 'Plein temps 3 + dual 3 ans',
-				'pt3-4-dual4' => 'Plein temps 3/4 + dual 4 ans'
+				'pt3-4-dual4' => 'Plein temps 3/4 + dual 4 ans',
+				'ES' => 'ES en école 2 ans',
+				'MP' => 'Maturité professionnelle (MP)',
+				'MSCI' => 'Maturité spécialisée (MSCI)',
+				'PA' => 'Préapprentissage'
 			),
 			'allow_null' => 0,
 			'other_choice' => 0,
