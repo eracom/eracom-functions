@@ -1,11 +1,12 @@
 <?php 
 
-
 /* Informations sur la formation
  *********************************
  * Affiche deux options:
- * Catégorie (pour projets)
- * Organigramme (nom d'organigramme)
+ *
+ * 1) Catégorie (pour projets)
+ * 2) Organigramme (nom d'organigramme)
+ *
 */
 
 acf_add_local_field_group(array (
