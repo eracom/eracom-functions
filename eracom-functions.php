@@ -56,8 +56,6 @@ include_once (plugin_dir_path(__FILE__).'eracom-acf.php');
 // Admin Styles
 include_once (plugin_dir_path(__FILE__).'eracom-admin-style.php');
 
-// Google Analytics
-include_once (plugin_dir_path(__FILE__).'eracom-analytics.php');
 
 
 /* Allowed FileTypes
