@@ -21,8 +21,8 @@ function eracom_register_post_types() {
 					// dashicons-admin-post
 					'capability_type' => 'post',
 					'hierarchical' => false,
-					'has_archive'		 => false,
-					'rewrite' => array('slug' => 'projet'),
+					'has_archive'		 => true,
+					'rewrite' => array('slug' => 'projets'),
 					'query_var' => true,
 					'exclude_from_search' => false,
 					'menu_position' => 6,
