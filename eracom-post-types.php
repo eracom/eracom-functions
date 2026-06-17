@@ -61,9 +61,9 @@ function eracom_register_post_types() {
 				 		'hierarchical' => true,
 				 		'show_ui' => true,
 				 		'show_admin_column' => true,
-				 		'label' => 'Branches',
-				 		'rewrite' => array('slug' => 'branche'),
-				 		'singular_label' => 'Branche'
+				 		'label' => 'Filières',
+				 		'rewrite' => array('slug' => 'filiere'),
+				 		'singular_label' => 'Filière'
 			 		) 
 			 );
 		
